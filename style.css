@@ -40,9 +40,11 @@ h3{
     margin-top: 100px;
     margin-right: 100px;
 }
+.object1{
+    width: 100%;
+}
 .object2{
-    width: 470px;
-    height: 398px;
+    width: 100%;
 }
 .svg{
     width: 25px;
@@ -188,4 +190,16 @@ td{
     margin-top: 10px;
     text-align: center;
     color: 1B1A17;
+}
+
+@media screen and (max-width: 375px) {
+    .home{
+        width: 100%;
+    }
+    .image1{
+        width: 100%;
+    }
+    .image2{
+        width: 100%;
+    }
 }
